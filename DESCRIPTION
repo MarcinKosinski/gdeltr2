@@ -2,7 +2,7 @@ Package: gdeltr2
 Type: Package
 Title: R's modern interface GDELT Project Interface
 Year: 2017
-Version: 0.3.110242
+Version: 0.3.110243
 Authors@R: person("Alex", "Bresler", email = "abreselr@asbcllc.com", role = c("aut", "cre"))
 URL: https://github.com/abresler/gdeltr2
 Description: A tool to efficently and interactively interface with GDELT data and
@@ -35,7 +35,9 @@ Imports:
     wordcloud2,
     ggthemes,
     ggplot2,
-    tibble
+    tibble,
+    plotly,
+    hrbrthemes
 Collate:
     'gdelt_event_gkg.R'
     'gdelt_full_text_api.R'
